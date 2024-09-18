@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D5438252C948FC30022FEAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5438242C948FC30022FEAD /* AppDelegate.swift */; };
+		5D5438272C948FC30022FEAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5438262C948FC30022FEAD /* SceneDelegate.swift */; };
+		5D5438292C948FC30022FEAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5438282C948FC30022FEAD /* ViewController.swift */; };
+		5D54382C2C948FC30022FEAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D54382A2C948FC30022FEAD /* Main.storyboard */; };
+		5D54382E2C948FC50022FEAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D54382D2C948FC50022FEAD /* Assets.xcassets */; };
+		5D5438312C948FC50022FEAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D54382F2C948FC50022FEAD /* LaunchScreen.storyboard */; };
+		5D54383C2C949CE40022FEAD /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 5D54383B2C949CE40022FEAD /* StreamChat */; };
+		5D54383E2C949CE40022FEAD /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5D54383D2C949CE40022FEAD /* StreamChatUI */; };
+		5DCA605F2C957594000C6600 /* DemoChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCA605E2C957594000C6600 /* DemoChannelVC.swift */; };
+		5DCA60622C957937000C6600 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 5DCA60612C957937000C6600 /* Nuke */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D5438212C948FC30022FEAD /* SacrenaChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SacrenaChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5438242C948FC30022FEAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D5438262C948FC30022FEAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D5438282C948FC30022FEAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D54382B2C948FC30022FEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D54382D2C948FC50022FEAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D5438302C948FC50022FEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D5438322C948FC50022FEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DCA605E2C957594000C6600 /* DemoChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoChannelVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D54381E2C948FC30022FEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCA60622C957937000C6600 /* Nuke in Frameworks */,
+				5D54383E2C949CE40022FEAD /* StreamChatUI in Frameworks */,
+				5D54383C2C949CE40022FEAD /* StreamChat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D5438182C948FC30022FEAD = {
+			isa = PBXGroup;
+			children = (
+				5D5438232C948FC30022FEAD /* SacrenaChatApp */,
+				5D5438222C948FC30022FEAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D5438222C948FC30022FEAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D5438212C948FC30022FEAD /* SacrenaChatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D5438232C948FC30022FEAD /* SacrenaChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				5DECFF312C9ABE4B00783636 /* Delegates */,
+				5DECFF332C9ABE7D00783636 /* Storyboard */,
+				5DECFF322C9ABE6C00783636 /* Controllers */,
+				5D54382D2C948FC50022FEAD /* Assets.xcassets */,
+				5D5438322C948FC50022FEAD /* Info.plist */,
+			);
+			path = SacrenaChatApp;
+			sourceTree = "<group>";
+		};
+		5DECFF312C9ABE4B00783636 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				5D5438242C948FC30022FEAD /* AppDelegate.swift */,
+				5D5438262C948FC30022FEAD /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		5DECFF322C9ABE6C00783636 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D5438282C948FC30022FEAD /* ViewController.swift */,
+				5DCA605E2C957594000C6600 /* DemoChannelVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5DECFF332C9ABE7D00783636 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5D54382F2C948FC50022FEAD /* LaunchScreen.storyboard */,
+				5D54382A2C948FC30022FEAD /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D5438202C948FC30022FEAD /* SacrenaChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5438352C948FC50022FEAD /* Build configuration list for PBXNativeTarget "SacrenaChatApp" */;
+			buildPhases = (
+				5D54381D2C948FC30022FEAD /* Sources */,
+				5D54381E2C948FC30022FEAD /* Frameworks */,
+				5D54381F2C948FC30022FEAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SacrenaChatApp;
+			packageProductDependencies = (
+				5D54383B2C949CE40022FEAD /* StreamChat */,
+				5D54383D2C949CE40022FEAD /* StreamChatUI */,
+				5DCA60612C957937000C6600 /* Nuke */,
+			);
+			productName = SacrenaChatApp;
+			productReference = 5D5438212C948FC30022FEAD /* SacrenaChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D5438192C948FC30022FEAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5D5438202C948FC30022FEAD = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5D54381C2C948FC30022FEAD /* Build configuration list for PBXProject "SacrenaChatApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D5438182C948FC30022FEAD;
+			packageReferences = (
+				5D54383A2C949CE40022FEAD /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+				5DCA60602C957937000C6600 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
+			productRefGroup = 5D5438222C948FC30022FEAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D5438202C948FC30022FEAD /* SacrenaChatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D54381F2C948FC30022FEAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5438312C948FC50022FEAD /* LaunchScreen.storyboard in Resources */,
+				5D54382E2C948FC50022FEAD /* Assets.xcassets in Resources */,
+				5D54382C2C948FC30022FEAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D54381D2C948FC30022FEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5438292C948FC30022FEAD /* ViewController.swift in Sources */,
+				5DCA605F2C957594000C6600 /* DemoChannelVC.swift in Sources */,
+				5D5438252C948FC30022FEAD /* AppDelegate.swift in Sources */,
+				5D5438272C948FC30022FEAD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D54382A2C948FC30022FEAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D54382B2C948FC30022FEAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D54382F2C948FC50022FEAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5438302C948FC50022FEAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D5438332C948FC50022FEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D5438342C948FC50022FEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D5438362C948FC50022FEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3G9D5YD37N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SacrenaChatApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera to capture photos.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.sacrena.SacrenaChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5D5438372C948FC50022FEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3G9D5YD37N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SacrenaChatApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera to capture photos.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.sacrena.SacrenaChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D54381C2C948FC30022FEAD /* Build configuration list for PBXProject "SacrenaChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5438332C948FC50022FEAD /* Debug */,
+				5D5438342C948FC50022FEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5438352C948FC50022FEAD /* Build configuration list for PBXNativeTarget "SacrenaChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5438362C948FC50022FEAD /* Debug */,
+				5D5438372C948FC50022FEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D54383A2C949CE40022FEAD /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getstream/stream-chat-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		5DCA60602C957937000C6600 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D54383B2C949CE40022FEAD /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D54383A2C949CE40022FEAD /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
+		};
+		5D54383D2C949CE40022FEAD /* StreamChatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D54383A2C949CE40022FEAD /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatUI;
+		};
+		5DCA60612C957937000C6600 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DCA60602C957937000C6600 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5D5438192C948FC30022FEAD /* Project object */;
+}
